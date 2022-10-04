@@ -1,0 +1,141 @@
+@import url('http://fonts.cdnfonts.com/css/phitradesign-ink');
+*{
+ padding: 0%;
+ margin:o;
+ box-sizing: border-box;
+}
+.box{
+    font-family:'phitradesign INK' sans-serif; 
+    color: rgb(97, 8, 97);
+    font-size: 20px;
+    background-color: rgb(235, 181, 230);
+    margin-top: 10px;margin-bottom: 10px;border-style: solid;
+    padding: 5px;
+    }
+.img_center
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    }
+.titulos
+    {
+    font-family:'phitradesign INK' sans-serif; 
+    color: darkmagenta;
+    font-size: 50px; 
+     background-color: thistle;
+    }
+nav 
+    { 
+    text-align: center;
+    }
+nav ul li 
+    { 
+    list-style:none; 
+    display: inline;
+    }
+nav ul li a 
+    {
+    text-decoration:none; 
+    padding:8px 15px;
+    text-align: center;
+    font-size:30px;
+    font-weight: 300;
+    }
+.A
+    {
+    background-color: rgb(235, 188, 235);
+    padding: 15px 15px;
+    border-style:solid turquoise;
+    }
+h1  
+    {
+    text-align: center;
+    }
+h2  
+    {
+    text-align: center;
+    }
+h3  
+    {
+    font-weight: 800;
+    }
+.section_css 
+    {
+    float: left;
+    width: 50%;
+    border-style: 10px sold rgb(0, 247, 255);
+    padding: 25px;
+    background-color: rgb(245, 120, 245);
+    margin-top: 8px;
+    margin-bottom:10 px;
+    }
+.Introducción 
+    {
+    text-align:center;
+    font-size:30px;
+    font-weight: 600;
+    color: slateblue;
+    }
+.imagen_principal 
+    {
+    width: 300px;
+    height: 300px; 
+    border: solid  turquoise; 
+    margin: 3px;
+    }
+.imagen_icono 
+    {
+    width: 30px;
+    height: 30px; 
+    border: solid  turquoise;
+    }
+.Gale
+    {
+    width: 800px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20 px;
+    margin-bottom: 20px;
+    box-shadow:-1px 3px 7px 6px rgba(221,150,227,0.72) ;
+    }
+.boton
+    {
+    font-size: larger;
+    background-color: rgb(50, 228, 210);
+    margin-left: 45%;
+    margin-bottom: 20px;
+    }
+.fo
+    {
+    font-family:'phitradesign INK' sans-serif; 
+    background-color: turquoise;
+    color: rgb(97, 8, 97);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    }
+.video 
+    {
+    width: 450px;
+    height: 450px ;
+    margin-top: 10px ;
+    margin-left:35% ;
+    box-shadow:-1px 3px 7px 6px rgba(221,150,227,0.72);
+    }
+.ubicacion
+    {
+    width:300px; 
+    height:300px;
+    margin-top: 10px; margin-bottom: 20px;
+    margin-left: 40%;
+    box-shadow:-1px 3px 7px 6px rgba(221,150,227,0.72);
+    }
+
+
+
+
+
