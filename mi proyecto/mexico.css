@@ -5,7 +5,8 @@
  box-sizing: border-box;
  scroll-behavior: smooth;
 }
-body{font-family:'phitradesign INK' sans-serif; }
+body{font-family:'phitradesign INK' sans-serif;
+}
 .box{ 
     color: rgb(97, 8, 97);
     font-size: 20px;
@@ -34,10 +35,21 @@ body{font-family:'phitradesign INK' sans-serif; }
     object-fit: contain;
     object-position: center;
 }
-h1{font-size: 5vw;
-text-align: center;}
-p{font-size: 35px;
-text-align: center;}
+h1
+    {font-size: 5vw;
+    text-align: center;}
+
+p
+    {font-size: 35px;
+    text-align: center;}
+.p2
+    {
+    text-align:start;
+    margin-bottom:100px;
+    background-color: rgb(245, 120, 245);}
+.itemult  {
+        text-align:start}
+
 .img_center
     {
     display: flex;
@@ -77,10 +89,7 @@ nav ul li a
     border-style:solid turquoise;
     border-radius: 10px;
     }
-/* h1  
-    {
-    text-align: center;
-    } */
+
 h2  
     {
     text-align: center;
@@ -98,14 +107,17 @@ h3
     padding: 25px;
     background-color: rgb(245, 120, 245);
     margin-top: 8px;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
     }
 .Introducción 
     {
     text-align:center;
     font-size:30px;
     font-weight: 600;
-    color: slateblue;
+    color: rgb(97, 8, 97);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color:thistle ;
     }
 .imagen_principal 
     {
@@ -153,28 +165,36 @@ margin-bottom: 10px;}
     margin-bottom: 5px;
     border-radius: 10px;
     }
-.fo
+    
+.flex-container{ 
+    display: flex;
+    justify-content: center;
+     flex-direction: column; 
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+     background-image: linear-gradient(129deg, rgba(110, 147, 161, 0.04) 0%, rgba(110, 147, 161, 0.04) 50%,rgba(31, 225, 91, 0.04) 50%, rgba(31, 225, 91, 0.04) 100%),linear-gradient(383deg, rgba(201, 121, 180, 0.04) 0%, rgba(201, 121, 180, 0.04) 50%,rgba(1, 113, 56, 0.04) 50%, rgba(1, 113, 56, 0.04) 100%),linear-gradient(268deg, rgba(211, 211, 180, 0.04) 0%, rgba(211, 211, 180, 0.04) 50%,rgba(13, 109, 126, 0.04) 50%, rgba(13, 109, 126, 0.04) 100%),linear-gradient(372deg, rgba(52, 121, 135, 0.04) 0%, rgba(52, 121, 135, 0.04) 50%,rgba(18, 246, 96, 0.04) 50%, rgba(18, 246, 96, 0.04) 100%),linear-gradient(334deg, rgba(127, 18, 115, 0.04) 0%, rgba(127, 18, 115, 0.04) 50%,rgba(70, 203, 229, 0.04) 50%, rgba(70, 203, 229, 0.04) 100%),linear-gradient(248deg, rgba(131, 205, 141, 0.04) 0%, rgba(131, 205, 141, 0.04) 50%,rgba(37, 31, 18, 0.04) 50%, rgba(37, 31, 18, 0.04) 100%),linear-gradient(266deg, rgba(13, 183, 43, 0.04) 0%, rgba(13, 183, 43, 0.04) 50%,rgba(103, 42, 135, 0.04) 50%, rgba(103, 42, 135, 0.04) 100%),linear-gradient(277deg, rgba(85, 200, 233, 0.04) 0%, rgba(85, 200, 233, 0.04) 50%,rgba(215, 24, 12, 0.04) 50%, rgba(215, 24, 12, 0.04) 100%),linear-gradient(271deg, rgba(95, 197, 25, 0.04) 0%, rgba(95, 197, 25, 0.04) 50%,rgba(30, 61, 7, 0.04) 50%, rgba(30, 61, 7, 0.04) 100%),linear-gradient(223deg, rgba(132, 241, 60, 0.04) 0%, rgba(132, 241, 60, 0.04) 50%,rgba(52, 203, 19, 0.04) 50%, rgba(52, 203, 19, 0.04) 100%),linear-gradient(183deg, rgba(67, 161, 9, 0.04) 0%, rgba(67, 161, 9, 0.04) 50%,rgba(27, 242, 201, 0.04) 50%, rgba(27, 242, 201, 0.04) 100%),linear-gradient(387deg, rgba(33, 36, 218, 0.04) 0%, rgba(33, 36, 218, 0.04) 50%,rgba(248, 232, 35, 0.04) 50%, rgba(248, 232, 35, 0.04) 100%),linear-gradient(115deg, rgba(236, 115, 112, 0.04) 0%, rgba(236, 115, 112, 0.04) 50%,rgba(33, 180, 6, 0.04) 50%, rgba(33, 180, 6, 0.04) 100%),linear-gradient(151deg, rgba(11, 133, 241, 0.04) 0%, rgba(11, 133, 241, 0.04) 50%,rgba(197, 131, 207, 0.04) 50%, rgba(197, 131, 207, 0.04) 100%),linear-gradient(172deg, rgb(50, 233, 241),rgb(7, 146, 201));
+}
+.fo1
     {
-    background-color: turquoise;
-    color: rgb(97, 8, 97);
+    background-color: thistle;
+    border-radius: 30px;
+    padding-inline: 20px;
+    color:rgb(97, 8, 97); 
     font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
-    }
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .video 
     {
     width: 450px;
     height: 450px ;
-    margin-top: 10px ;
-    margin-left:35% ;
     box-shadow:-1px 3px 7px 6px rgba(221,150,227,0.72);
     }
 .ubicacion
     {
-    width:300px; 
-    height:300px;
-    margin-top: 10px; margin-bottom: 20px;
-    margin-left: 40%;
+    width:450px; 
+    height:450px;
     box-shadow:-1px 3px 7px 6px rgba(221,150,227,0.72);
     }
 
