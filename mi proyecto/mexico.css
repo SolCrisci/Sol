@@ -5,7 +5,8 @@
  box-sizing: border-box;
  scroll-behavior: smooth;
 }
-body{font-family:'phitradesign INK' sans-serif;background-image: radial-gradient(circle at 32% 84%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 87% 12%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 22% 99%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 80% 86%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 47% 59%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 79% 100%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 71% 67%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 36% 12%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 45% 99%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 76% 89%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 82% 12%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 26% 60%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 55% 41%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 58% 10%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 7% 21%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 12% 81%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 25% 65%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),linear-gradient(0deg, rgb(37, 75, 149),rgb(49, 224, 252));}
+body{font-family:'phitradesign INK' sans-serif;background-image: radial-gradient(circle at 32% 84%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 87% 12%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 22% 99%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 80% 86%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 47% 59%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 79% 100%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 71% 67%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 36% 12%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 45% 99%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 76% 89%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 82% 12%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 26% 60%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 55% 41%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 58% 10%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 7% 21%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 12% 81%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 25% 65%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),linear-gradient(0deg, rgb(37, 75, 149),rgb(49, 224, 252));
+    }
 .box{ 
     color: rgb(97, 8, 97);
     font-size: 20px;
@@ -17,7 +18,7 @@ body{font-family:'phitradesign INK' sans-serif;background-image: radial-gradient
     position: sticky;
     width: 100%;
     height: 100%;
-    height: 600px;
+    height: 100vh; 
     color:rgb(235, 181, 230);
     display: flex;
     align-items: center;
@@ -33,39 +34,43 @@ body{font-family:'phitradesign INK' sans-serif;background-image: radial-gradient
     z-index: -1;
     object-fit: contain;
     object-position: center;
-}
-h1
-    {font-size: 5vw;
-    text-align: center;}
-
-p
-    {font-size: 35px;
-    text-align: center;}
-.p2
-    {
+              }
+h1{
+    font-size: 6vw;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 4px 2px black;
+ }
+p{
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 3px 2px black;
+ }
+.p4{
     text-align:start;
     margin-bottom:100px;
-    background-color: rgb(245, 120, 245);}
-.itemult  {
-        text-align:start}
-
-.img_center
-    {
+    background-color: rgb(245, 120, 245);
+   }
+.itemult{
+        text-align:start
+        }
+.img_center{
+    width: 100%;
+    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto; 
-    width: 70%;
+    margin-top: 50px;
     overflow: hidden;
-    }
-.titulos
-    {
+           }
+.titulos{
     color: darkmagenta;
     font-size: 50px; 
      background-color: thistle;
-    }
-nav 
-    { 
+        }
+nav { 
     text-align: center;
     }
 nav ul li 
@@ -91,12 +96,11 @@ nav ul li a
 h2  
     {
     text-align: center;
-    }
+    }    
 h3  
     {
     font-weight: 800;
     }
-
 .section_css 
     {
     float: left;
@@ -107,23 +111,15 @@ h3
     margin-top: 8px;
     margin-bottom: 40px;
     }
-.Introducción 
-    {
-    text-align:center;
-    font-size:30px;
-    font-weight: 600;
-    color: rgb(97, 8, 97);
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background-color:thistle ;
-    }
+
 .imagen_principal 
     {
     display: flex;
-    width: 300px;
-    height: 300px; 
+    width: 600px;
+    height: 600px; 
     border: solid  turquoise; 
     margin: 3px;
+    margin-top: 5%;
     align-items: center;
     }
 .imagen_icono 
@@ -146,9 +142,11 @@ h3
     margin-bottom: 20px;
     box-shadow:-1px 3px 7px 6px rgba(221,150,227,0.72) ;
     }
-    .espacio { width: 4rem;
+.espacio { 
+    width: 4rem;
     margin-top: 10px;
-margin-bottom: 10px;}
+    margin-bottom: 10px;
+}
 .boton
     {
     font-size: larger;
