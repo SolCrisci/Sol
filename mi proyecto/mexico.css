@@ -76,15 +76,15 @@ nav {
 nav ul li 
     { 
     list-style:none; 
-    display: inline;
+    display: inline-block;
     }
-nav ul li a 
+ nav ul li a 
     {
     text-decoration:none; 
     padding:8px 15px;
     text-align: center;
     font-size:30px;
-    font-weight: 300;
+    font-weight: 300; 
     }
 .A
     {
@@ -146,7 +146,7 @@ h3
     width: 4rem;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+         }
 .boton
     {
     font-size: larger;
@@ -192,7 +192,10 @@ h3
     box-shadow:-1px 3px 7px 6px rgba(221,150,227,0.72);
     }
 
-
-
-
-
+    @media screen and (max-width: 768px){
+    .header{display: flex;
+    flex-direction: column;}
+    p{display: none;}
+    h1{font-size: 100px;}
+   
+    }
