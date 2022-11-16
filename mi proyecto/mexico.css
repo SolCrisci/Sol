@@ -152,23 +152,26 @@ h3
     }
 .boton
     {
-   
-    font-size: larger;
+    font-size: large;
     background-color:  rgb(50, 228, 210);
     display: flex;
     margin-left: auto;
     margin-right: auto;  
     height: 50%;
-    width: 20%; 
+    width: 15%;
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
     border-radius: 40px;
     overflow: hidden;
-    gap: 10px;
+    
     }
- button:hover{background-color: white;
-    transition: 0.7s ;} 
+    .hoverr:hover
+    {
+    background-color: white;
+    transition: 0.7s;
+    cursor: pointer;
+    } 
 .flex-container{ 
     display: flex;
     justify-content: center;
@@ -240,6 +243,9 @@ h3
        
       }}
       @media screen and (max-width: 420px){
-        h1{font-size: 50px;
-    
-        }}
+        h1{font-size: 50px;}     
+            
+            
+            }}
+        
+     
