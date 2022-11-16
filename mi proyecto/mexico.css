@@ -152,6 +152,7 @@ h3
     }
 .boton
     {
+   
     font-size: larger;
     background-color:  rgb(50, 228, 210);
     display: flex;
@@ -166,6 +167,8 @@ h3
     overflow: hidden;
     gap: 10px;
     }
+ button:hover{background-color: white;
+    transition: 0.7s ;} 
 .flex-container{ 
     display: flex;
     justify-content: center;
