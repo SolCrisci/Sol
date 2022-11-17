@@ -1,6 +1,6 @@
 const navclassA = document.querySelectorAll(".A");
 
- for (let i=0; i < navclassA.length; i++) {                               
+ for (let i=0; i < navclassA.length; i++){                               
 
             navclassA[i].addEventListener('mouseover',()=>
                             {
@@ -12,8 +12,8 @@ const navclassA = document.querySelectorAll(".A");
                             {
                             navclassA[i].style.backgroundColor =  "rgb(235, 188, 235)";
                             }
-                                           )  
+                                       )  
                            
-                        }
+                                         }
               
 
