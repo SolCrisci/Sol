@@ -253,69 +253,69 @@ h3
     color:rgb(183, 238, 238);
     }
     @media screen and (max-width: 1048px){
-.container
-    {display: flex;
-        flex-flow: column nowrap;
-        width: auto;
-    }
-.section_css1
-    { 
-    height: fit-content;
-    width: fit-content;
-    width: auto;
-    background-color: none;
-    }
-    .section_css2
-    { 
-    height: fit-content;
-    width: fit-content;
-    width: auto;
-        }}
-    @media screen and (max-width: 836px){
-    .header
-    {
-    display: flex;
-    flex-direction: column;
-    }
-.A
-    {
-    margin: 5px;
-    }
-.img_center
-    {
-    height: fit-content;
-    }
-p
-    { 
-    display: none;
-     }
-h1
-    {
-    font-size: 100px;
-    }
-.imagen_principal_b
-    {
-    margin-bottom: 30px;
-    }
-.imagen_principal_a
-    {
-    display:none;
-    }
-.boton
-    {
-    display: flex;
-    font-size: 20px;
-    overflow: hidden;
-    width: 50%;
-    height: 40%;
-    padding: 17px;
-     }
+        .container
+            {display: flex;
+                flex-flow: column nowrap;
+                width: auto;
+            }
+        .section_css1
+            { 
+            height: fit-content;
+            width: fit-content;
+            width: auto;
+            background-color: none;
+            }
+            .section_css2
+            { 
+            height: fit-content;
+            width: fit-content;
+            width: auto;
+                }}
+            @media screen and (max-width: 836px){
+        
+        .A
+            {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: fit-content;
+            }
+        .img_center
+            {
+            height: fit-content;
+            }
+        p
+            { 
+            display: none;
+            }
+        h1
+            {
+            font-size: 100px;
+            }
+        .imagen_principal_b
+            {
+            margin-bottom: 30px;
+            }
+        .imagen_principal_a
+            {
+            display:none;
+            }
+        .boton
+            {
+            display: flex;
+            font-size: 20px;
+            overflow: hidden;
+            width: 50%;
+            height: 40%;
+            padding: 17px;
+            }
                                           }
-      @media screen and (max-width: 420px){
-h1
-    {
-        font-size: 50px;
-    }     
-                                          }
+      @media screen and (max-width: 420px)
+      {
+        h1
+            {
+                font-size: 50px;
+            }     
+      }
         
      
