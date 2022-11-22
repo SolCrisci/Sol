@@ -253,24 +253,23 @@ h3
     color:rgb(183, 238, 238);
     }
     @media screen and (max-width: 1048px){
-.container{display: flex;
+.container
+    {display: flex;
         flex-flow: column nowrap;
         width: auto;
-   }
-   
-.section_css1{ 
-   
+    }
+.section_css1
+    { 
     height: fit-content;
     width: fit-content;
-    
-background-color: none;}
-    .section_css2{ 
-   
+    width: auto;
+    background-color: none;
+    }
+    .section_css2
+    { 
     height: fit-content;
     width: fit-content;
-   
-    -webkit-box-align: baseline;
-        
+    width: auto;
         }}
     @media screen and (max-width: 836px){
     .header
